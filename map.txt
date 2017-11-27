@@ -1,0 +1,110 @@
+monster 300 400 0 0
+monster 440 440 20 100
+pick 100 130 100 200
+pick 200 130 100 200
+pick 300 130 100 200
+pick 400 130 100 200
+pick 500 130 100 200
+pick 600 130 100 200
+pick 700 430 120 200
+pick 680 630 160 200
+pick 1250 1280 90 200
+platform top 60 30
+platform top 100 30
+platform top 116 30
+platform top 132 30
+platform top 148 30
+platform top 164 30
+platform top 300 30
+platform top 332 60
+platform top 360 80
+platform top 376 80
+platform top 392 80 
+platform top 630 30
+platform top 640 30
+platform top 650 30 
+platform top 660 80
+platform top 670 80
+platform top 680 80
+platform top 690 80
+platform top 700 80
+platform top 710 80
+platform top 720 80
+platform top 730 80
+platform top 740 80 
+platform top 780 80
+platform top 790 80
+platform top 800 80
+platform top 810 80
+platform top 820 80
+platform top 830 80
+platform top 830 30 
+platform top 890 30
+platform top 900 30
+platform top 910 30 
+platform top 1000 30
+platform top 1050 30
+platform top 1050 80
+platform top 1100 30 
+platform top 1190 30
+platform top 1220 80
+platform top 1230 80
+platform top 1240 80
+platform top 1250 80 
+platform top 1290 80
+platform top 1300 80
+platform top 1310 80
+platform top 1320 80
+platform top 1330 80
+platform top 1320 30
+platform top 1330 30
+platform top 1340 80 
+platform top 1616 0
+platform wall 1632 0
+platform top 1632 16
+platform wall 1648 0
+platform wall 1648 16
+platform top 1648 32
+platform wall 1664 0
+platform wall 1664 16
+platform wall 1664 32
+platform top 1664 48
+platform wall 1680 0
+platform wall 1680 16
+platform wall 1680 32
+platform wall 1680 48
+platform top 1680 64
+platform wall 1696 0
+platform wall 1696 16
+platform wall 1696 32
+platform wall 1696 48
+platform wall 1696 64
+platform top 1696 80
+platform wall 1712 0
+platform wall 1712 16
+platform wall 1712 32
+platform wall 1712 48
+platform wall 1712 64
+platform wall 1712 80
+platform top 1712 96
+platform wall 1728 0
+platform wall 1728 16
+platform wall 1728 32
+platform wall 1728 48
+platform wall 1728 64
+platform wall 1728 80
+platform wall 1728 96
+platform top 1728 112
+platform wall 1744 0
+platform wall 1744 16
+platform wall 1744 32
+platform wall 1744 48
+platform wall 1744 64
+platform wall 1744 80
+platform wall 1744 96
+platform wall 1744 112
+platform top 1744 128
+platform pole 1950 0 
+platform pole 1950 16 
+platform pole 1950 32
+platform pole 1950 48

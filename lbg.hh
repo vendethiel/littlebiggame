@@ -1,0 +1,13 @@
+#ifndef LBG_HH__
+#define LBG_HH__
+
+# define SPRITE_WIDTH 16
+# define SPRITE_HEIGHT 16
+# define WINDOW_WIDTH 800
+# define WINDOW_HEIGHT 700
+# define SCREEN_WIDTH 2100.f
+# define SCREEN_HEIGHT 600.f
+# define MAX_X_SPRITE (SCREEN_WIDTH - SPRITE_WIDTH)
+# define MAX_Y_SPRITE (SCREEN_HEIGHT - SPRITE_HEIGHT)
+
+#endif
