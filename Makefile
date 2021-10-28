@@ -28,7 +28,7 @@ NAME = lbg
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	$(CXX) $(CXXFLAGS) -o $(NAME) $(OBJ) $(LIBS)
+	$(CXX) $(LIBS) $(CXXFLAGS) -o $(NAME) $(OBJ)
 
 .PHONY: clean fclean re
 
