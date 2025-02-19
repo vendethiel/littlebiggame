@@ -10,7 +10,6 @@ public:
 
 public:
   void Update() override;
-  void Physics();
 
 public:
   sf::View GetView() const;
@@ -19,10 +18,10 @@ public:
   void SelectSprite();
 
 private:
-  sf::Sprite* _stillSprite;
-  sf::Sprite* _jumpSprite;
-  sf::Sprite* _leftSprite;
-  sf::Sprite* _rightSprite;
+  sf::Sprite *_stillSprite;
+  sf::Sprite *_jumpSprite;
+  sf::Sprite *_leftSprite;
+  sf::Sprite *_rightSprite;
 };
 
 #endif

@@ -1,4 +1,4 @@
-CXX = clang++
+CXX ?= clang++
 
 SRC = main.cpp \
 			AbstractEntity.cpp \
@@ -19,7 +19,7 @@ SRC = main.cpp \
 
 OBJ = $(SRC:.cpp=.o)
 
-CXXFLAGS = -W -Wall -Wextra -Wpedantic -g -std=c++14
+CXXFLAGS = -D SFML_STATIC -W -Wall -Wextra -Wpedantic -g -std=c++23
 
 LIBS = -lsfml-system -lsfml-window -lsfml-graphics -lsfml-audio
 
@@ -28,7 +28,7 @@ NAME = lbg
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	$(CXX) $(LIBS) $(CXXFLAGS) -o $(NAME) $(OBJ)
+	$(CXX) $(CXXFLAGS) -o $(NAME) $(OBJ) $(LIBS)
 
 .PHONY: clean fclean re
 

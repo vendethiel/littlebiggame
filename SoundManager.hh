@@ -7,17 +7,16 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 
-
 class SoundManager
 {
 public:
-  static SoundManager& GetInstance();
+  static SoundManager &GetInstance();
   void playLoop();
   void stop();
   void playLittleSound(std::string sound);
-  
+
 private:
-  SoundManager();
+  SoundManager() = default;
   static SoundManager m_instance;
 
 private:

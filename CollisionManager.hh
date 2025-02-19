@@ -8,21 +8,21 @@
 class CollisionManager
 {
 public:
-  CollisionManager(std::vector<std::unique_ptr<AbstractEntity>> const& entities, Character* character);
+  CollisionManager(std::vector<std::unique_ptr<AbstractEntity>> const &entities, Character &character);
   void Resolve();
 
 private:
   void ResetJump();
 
 private:
-  void Collide(AbstractEntity*);
+  void Collide(AbstractEntity *);
 
 private:
   AbstractEntity *_platform = nullptr;
   AbstractEntity *_wall = nullptr;
-  std::vector<std::unique_ptr<AbstractEntity>> const& _entities;
-  Character* _character;
-  
+  std::vector<std::unique_ptr<AbstractEntity>> const &_entities;
+  Character &_character;
+
 private:
   static bool _didJump;
   static bool _didDoubleJump;

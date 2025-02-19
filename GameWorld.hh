@@ -4,22 +4,25 @@
 #include <memory>
 #include <vector>
 #include <SFML/Graphics.hpp>
-#include "AbstractEntity.hh" 
-#include "Character.hh" 
-#include "IObservable.hh" 
+#include "AbstractEntity.hh"
+#include "Character.hh"
+#include "IObservable.hh"
 
 class GameWorld : public IObservable
 {
 public:
+  GameWorld(Character &);
+
+public:
   void Tick(sf::RenderWindow &);
 
 public:
-  void AddEntity(AbstractEntity*);
-  void SetCharacter(Character*);
+  void AddEntity(AbstractEntity *);
+  void SetCharacter(Character *);
 
 private:
   std::vector<std::unique_ptr<AbstractEntity>> _entities;
-  Character* _character = nullptr;
+  Character &_character;
 };
 
 #endif
